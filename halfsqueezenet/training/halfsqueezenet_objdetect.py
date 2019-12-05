@@ -475,7 +475,7 @@ def run_image(model, sess_init, image_dir):
 
         objdetect = outputs[0]
         bndboxes = outputs[1]
-
+        # 取消原for循环，提升FPS: 11>>23
         max_pred = objdetect[0].max()
         argmaxs = np.where(objdetect[0] == max_pred)
         max_h, max_w, _ = argmaxs
