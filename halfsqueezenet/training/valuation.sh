@@ -1,0 +1,2 @@
+#python ./halfsqueezenet_objdetect.py 0 --run path/to/DAC18_object_detection_dataset/category/ --weights ./weights.npy
+python halfsqueezenet_objdetect.py 0 --run /media/williamlambert/日常/Mydownloads/data_training/car14 --weights ./weights.npy

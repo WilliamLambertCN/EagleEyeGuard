@@ -1,0 +1,17 @@
+/halfsqueezenet/car/
+/halfsqueezenet/training/train_log/
+/halfsqueezenet/training/*.md
+*.jpg
+*.xml
+*png
+/halfsqueezenet/output/
+/halfsqueezenet/repo/
+*.log
+*.npy
+/halfsqueezenet/repo/
+/halfsqueezenet/output/
+vivado*
+*.v
+*.jou
+*.idea
+.idea
